@@ -1,0 +1,46 @@
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.input label {
+    font-size: 13px;
+    line-height: 21px;
+    opacity: 0.5;
+    text-align: left;
+}
+
+.input input {
+    padding: 3px;
+    border: solid 1px;
+    font-size: 14px;
+    width: 150px;
+    line-height: 23px;
+} 
+
+.btn {
+    border: solid 1px;
+    width: 180px;
+    padding: 3px;
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 10px;
+    background: green;
+}
+
+.result {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.card {
+    margin: 10px;
+}
+
+.card-image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
